@@ -1,0 +1,31 @@
+# Local Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local datasets and generated Spark artifacts
+/data/
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Generated training logs
+/03_output.txt
+/04_output.txt
+*.log
+
+# Local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
